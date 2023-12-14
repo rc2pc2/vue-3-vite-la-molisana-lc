@@ -20,5 +20,6 @@ export default {
         background-image: url('../assets/img/fondo-pag-speciali.jpg');
         // background-position: center;
         padding: 4rem;
+        margin-bottom: 3rem
     }
 </style>
