@@ -1,21 +1,24 @@
 <template lang="">
     <main>
-        <h1>
-            Main
-        </h1>
+        <ListPastas />
     </main>
 </template>
 
 <script>
-export default {
-    name: 'AppMain'
+import ListPastas from './ListPastas.vue';
 
+export default {
+    name: 'AppMain',
+    components: {
+        ListPastas
+    }
 }
 </script>
 
 <style lang="scss" scoped>
-    h1{
-        color: yellow;
+    main{
+        background-image: url('../assets/img/fondo-pag-speciali.jpg');
+        // background-position: center;
+        padding: 4rem;
     }
-
 </style>
