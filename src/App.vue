@@ -15,12 +15,11 @@ export default {
 
 <template lang="">
   <AppHeader/>
-
   <AppMain/>
-
   <AppFooter/>
 </template>
 
-<style lang="">
+<style lang="scss">
+  @use './styles/general.scss' as *;
 
 </style>
