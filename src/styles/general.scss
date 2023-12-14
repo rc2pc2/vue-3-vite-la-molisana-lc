@@ -7,5 +7,10 @@
 
 body{
     background-color: $bg-color;
-    color: $light-color;
+    color: $main-color;
+}
+
+a{
+    text-decoration: none;
+    color: $main-color;
 }
