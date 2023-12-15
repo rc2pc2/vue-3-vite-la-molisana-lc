@@ -20,6 +20,7 @@ export default {
 </template>
 
 <style lang="scss">
+  @use '../node_modules/bootstrap/scss/bootstrap.scss' as *;
   @use './styles/general.scss' as *;
 
 </style>

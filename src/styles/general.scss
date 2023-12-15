@@ -1,9 +1,9 @@
 @use './partials/variables' as *;
 @use './partials/mixins' as *;
 
-*{
-    @include reset;
-}
+// *{
+//     @include reset;
+// }
 
 body{
     background-color: $bg-color;
