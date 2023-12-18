@@ -37,7 +37,8 @@ export default {
         width: calc((100% / 4) - .3rem) ;
         margin-right: .15;
         margin-left: .15;
-        border: 5px solid magenta;
+        margin-bottom: .3rem;
+        // border: 5px solid magenta;
         text-align: center;
 
 
